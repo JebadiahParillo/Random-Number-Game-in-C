@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 {
     int difficulty = 0;
     int level = 0;
-    printf("Enter level 1, 2, or 3");
+    printf("Enter level 1, 2, or 3\n");
     scanf("%d",&level);
     if(level = 1)
         difficulty = 100;
